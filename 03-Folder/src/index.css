@@ -1,0 +1,44 @@
+/* *{
+  background-color: black;
+  color: white;
+  margin: auto;
+} */
+
+body{
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.Parent{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.Card{
+  border: 1px solid white;
+  background-color: #222;
+  margin: auto;
+  
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+  /* height: 140px; */
+}
+
+.Card button{
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.Card img{
+  height: 140px;
+  width: 140px;
+  border-radius: 25%;
+  object-fit: cover;
+}
