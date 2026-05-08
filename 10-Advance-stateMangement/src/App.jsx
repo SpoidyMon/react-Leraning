@@ -40,11 +40,11 @@ const App = () => {
     // setx(x+1);
     console.log(x)
 
-     setx(prev =>  prev + 1 )
-     setx(prev =>  prev + 1 )
-     setx(prev =>  prev + 1 )
+    setx(prev => prev + 1)
+    setx(prev => prev + 1)
+    setx(prev => prev + 1)
 
-  
+
 
   }
 
@@ -59,7 +59,7 @@ const App = () => {
       {/* <h1>{num}</h1> */}
 
 
-        <button onClick={onclk}>click here</button> 
+      <button onClick={onclk}>click here</button>
 
       <h1>{x}</h1>
 
