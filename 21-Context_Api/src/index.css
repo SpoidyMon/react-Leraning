@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
+  text-transform: capitalize;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.light{
+  display: flex;
+  background-color: lightseagreen;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  
+}
+
+.dark{
+  display: flex;
+  background-color: rgb(29, 123, 71);
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  
+}
+
+.nav2{
+  display: flex;
+  gap: 20px;
+}
+
+button{
+  margin: 20px;
+  border-radius: 20px;
+  background-color: rgb(233, 139, 45);
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: large;
+}
